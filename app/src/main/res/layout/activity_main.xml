@@ -1,75 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#a8c758"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="190dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
         android:background="@color/colorPrimary"
-        android:padding="1px"
+        android:padding="1dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/cafefrei" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_marginTop="35dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/logo"/>
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:src="@drawable/w1"
-            android:layout_marginLeft="20dp"/>
-
-         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="18sp"
-             android:textColor="@android:color/black"
-             android:layout_marginLeft="10dp"
-            android:text="www.cafefrei.com" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp">
-
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/p1"
             android:layout_marginLeft="20dp"
-            android:padding="2dp" />
+            android:src="@drawable/w1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
             android:layout_marginLeft="10dp"
-            android:text="+36 70 770 4605" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="www.cafefrei.com"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -80,18 +57,18 @@
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:src="@drawable/l1"
             android:layout_marginLeft="20dp"
-            android:padding="2dp" />
+            android:padding="2dp"
+            android:src="@drawable/p1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
             android:layout_marginLeft="10dp"
-            android:text="8000 Székesfehérvár, Fő utca 1." />
+            android:fontFamily="sans-serif-condensed"
+            android:text="+36 70 770 4605"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,35 +79,57 @@
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:src="@drawable/o1"
             android:layout_marginLeft="20dp"
-            android:padding="2dp" />
+            android:padding="2dp"
+            android:src="@drawable/l1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="8000 Székesfehérvár, Fő utca 1."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp"
+            android:src="@drawable/o1" />
 
         <TextView
             android:id="@+id/open_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
             android:layout_marginLeft="10dp"
-            android:text="Open hours:" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="Open hours:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp">
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"
-        android:layout_marginLeft="45dp"
-        android:text="Monday-Sunday: 8:30 - 21:00" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Monday-Sunday: 8:30 - 21:00"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
